@@ -1,0 +1,31 @@
+{
+  "name": "flutter-snippets",
+  "displayName": "Flutter Snippets",
+  "description": "Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter Developers.",
+  "publisher": "om-chauhan",
+  "version": "0.0.1",
+  "homepage": "https://github.com/om-chauhan/flutter-snippets/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/om-chauhan/flutter-snippets/issues",
+    "email": "adbytee@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/om-chauhan/flutter-snippets"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

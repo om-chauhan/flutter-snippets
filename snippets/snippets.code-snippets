@@ -1,0 +1,204 @@
+{
+  "Stateless Widget": {
+    "prefix": "stlW",
+    "body": [
+      "class ${1:Name} extends StatelessWidget {",
+      "const ${1:Name}({ Key? key }) : super(key: key);",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container(),",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Stateless Widget"
+  },
+  "Statefull Widget": {
+    "prefix": "stfW",
+    "body": [
+      "class ${1:Name} extends StatefulWidget {",
+      "const ${1:Name}({ Key? key }) : super(key: key);",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container(),",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Statefull Widget"
+  },
+  "Build Method": {
+    "prefix": "build",
+    "body": ["  Widget build(BuildContext context) {", "", "}"],
+    "description": "Build Method"
+  },
+  "Init State Method": {
+    "prefix": "initS",
+    "body": ["@override", "void initState() {", "  super.initState();", "}"],
+    "description": "Init State Method"
+  },
+  "Dispose Method": {
+    "prefix": "dis",
+    "body": ["@override", "void dispose() {", "  super.dispose();", "}"],
+    "description": "Dispose Method"
+  },
+  "ListView Builder": {
+    "prefix": "listViewB",
+    "body": [
+      " ListView.builder(",
+      "              itemCount: ${1:5},",
+      "              shrinkWrap: true,",
+      "              itemBuilder: (BuildContext context, int index) {",
+      "                return Container();",
+      "              },",
+      "            ),"
+    ],
+    "description": "ListView Builder"
+  },
+  "Import Cupertino Package": {
+    "prefix": "importC",
+    "body": ["import 'package:flutter/cupertino.dart';"],
+    "description": "Import Cupertino Package"
+  },
+  "ListView Separator": {
+    "prefix": "ListViewS",
+    "body": [
+      "    ListView.separated(",
+      "          itemCount: 1,",
+      "          shrinkWrap: true,",
+      "          separatorBuilder: (BuildContext context, int index) {",
+      "            return Container();",
+      "          },",
+      "          itemBuilder: (BuildContext context, int index) {",
+      "            return Container();",
+      "          },",
+      "        ),"
+    ],
+    "description": "ListView Separator"
+  },
+  "GridView Builder": {
+    "prefix": "gridViewB",
+    "body": [
+      "  GridView.builder(",
+      "          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(",
+      "            crossAxisCount: 2,",
+      "          ),",
+      "          itemCount: 2,",
+      "          itemBuilder: (BuildContext context, int index) {",
+      "            return Container();",
+      "          },",
+      "        ),"
+    ],
+    "description": "GridView Builder"
+  },
+  "GridView Count": {
+    "prefix": "gridViewC",
+    "body": [
+      "   GridView.count(",
+      "          crossAxisSpacing: 1,",
+      "          mainAxisSpacing: 2,",
+      "          crossAxisCount: 2,",
+      "          children: <Widget>[${1:}],",
+      "        ),"
+    ],
+    "description": "GridView Count"
+  },
+  "GridView Extent": {
+    "prefix": "gridViewE",
+    "body": [
+      "  GridView.extent(",
+      "          maxCrossAxisExtent: 2,",
+      "          children: <Widget>[${1:}],",
+      "        ),"
+    ],
+    "description": "GridView Extent"
+  },
+  "Custom Scroll View": {
+    "prefix": "customScrollV",
+    "body": [
+      "  CustomScrollView(",
+      "          slivers: <Widget>[${1:}],",
+      "        ),"
+    ],
+    "description": "Custom Scroll View"
+  },
+  "Stream Builder": {
+    "prefix": "streamB",
+    "body": [
+      " StreamBuilder(",
+      "          stream: ${1:},",
+      "          builder: (BuildContext context, AsyncSnapshot snapshot) {",
+      "            return Container();",
+      "          },",
+      "        ),"
+    ],
+    "description": "Stream Builder"
+  },
+  "Orientation Builder": {
+    "prefix": "orientationB",
+    "body": [
+      " OrientationBuilder(",
+      "          builder: (BuildContext context, Orientation orientation) {",
+      "            return Container();",
+      "          },",
+      "        ),"
+    ],
+    "description": "Orientation Builder"
+  },
+  "Layout Builder": {
+    "prefix": "layoutB",
+    "body": [
+      "   LayoutBuilder(",
+      "          builder: (BuildContext context, BoxConstraints constraints) {",
+      "            return Container();",
+      "          },",
+      "        ),"
+    ],
+    "description": "Layout Builder"
+  },
+  "Single Child Scroll View": {
+    "prefix": "singleChildSV",
+    "body": [
+      "  SingleChildScrollView(",
+      "       child: Column(",
+      "         children: [],",
+      "       ),",
+      "    ),"
+    ],
+    "description": "Single Child Scroll View"
+  },
+  "Future Builder": {
+    "prefix": "futureB",
+    "body": [
+      "  FutureBuilder(",
+      "     future: ${1:},",
+      "     builder: (BuildContext context, AsyncSnapshot snapshot) {",
+      "       return;",
+      "       },",
+      "    ),"
+    ],
+    "description": "Future Builder"
+  },
+  "Debug Print": {
+    "prefix": "debugP",
+    "body": ["      debugPrint('${1:}');"],
+    "description": "Debug Print"
+  },
+  "Show Dialog Method": {
+    "prefix": "showDialog",
+    "body": [
+      " showDialog(",
+      "    context: context,",
+      "    useSafeArea: true,",
+      "    barrierDismissible: false,",
+      "    builder: (context) {",
+      "    return AlertDialog(",
+      "       title: Text('Title'),",
+      "       content: Text('Content'),",
+      "       );",
+      "     },",
+      "   );"
+    ],
+    "description": "Show Dialog Method"
+  }
+}
