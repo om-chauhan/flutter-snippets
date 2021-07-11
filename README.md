@@ -4,66 +4,78 @@
 
 Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter Developers.
 
-## Shortcuts
+## Features
 
 1. Speed up developements.
 2. Don't need to memorize complex code.
 
----
-
 ## Shortcuts
 
-1. ##### Import Package
+##### Import Package
 
-| Key press | Name              |
+| Key press | Meaning           |
 | --------- | ----------------- |
 | `importM` | Material Package  |
 | `importC` | Cupertino Package |
 
-2. #### Builders
+##### Builders
 
-| Key press         | Name                |
-| ----------------- | ------------------- |
-| `listViewB`       | ListView.Builder    |
-| `listViewS`       | ListView.Separatedt |
-| `gridViewB`       | GridView.Builder    |
-| `gridViewC`       | GridView.Count      |
-| `gridViewE`       | GridView.Extent     |
-| `streamBldr`      | Stream Builder      |
-| `layoutBldr`      | Layout Builder      |
-| `orientationBldr` | Orientation Builder |
-| `futureBldr`      | Future Builder      |
+| Key press      | Meaning             |
+| -------------- | ------------------- |
+| `listViewB`    | ListView.Builder    |
+| `ListViewS`    | ListView.Separatedt |
+| `gridViewB`    | GridView.Builder    |
+| `gridViewC`    | GridView.Count      |
+| `gridViewE`    | GridView.Extent     |
+| `streamB`      | Stream Builder      |
+| `layoutB`      | Layout Builder      |
+| `orientationB` | Orientation Builder |
+| `futureB`      | Future Builder      |
 
-3. #### Builders
+##### Scroll Views
 
-| Key press       | Name                    |
+| Key press       | Meaning                 |
 | --------------- | ----------------------- |
-| `stlW`          | Stateless Widget        |
-| `stfW`          | Statefull Widget        |
-| `customScrollV` | Custom ScrollView       |
+| `customSV`      | Custom ScrollView       |
 | `singleChildSV` | Single Child ScrollView |
-| `debugP`        | Debug Print             |
 
-4. #### Methods
+##### Widgets
 
-| Key press    | Name              |
+| Key press | Meaning          |
+| --------- | ---------------- |
+| `stlW`    | Stateless Widget |
+| `stfW`    | Stateful Widget  |
+
+##### Functions
+
+| Key press | Meaning     |
+| --------- | ----------- |
+| `debugP`  | Debug Print |
+
+##### Methods
+
+| Key press    | Meaning           |
 | ------------ | ----------------- |
-| `build`      | Build Method      |
+| `buildM`     | Build Method      |
 | `initS`      | Init State Method |
-| `dis`        | Dispose Method    |
+| `dispM`      | Dispose Method    |
 | `showDialog` | showDialog Method |
 
----
-
 ## Release Notes
+
+### 0.0.4
+
+- Snippets improved🐛
 
 ### 0.0.3
 
 - Readme Docs Improved.🐛
 - keywords added in `package.json`🚀
+
 ### 0.0.2
 
 - Readme Docs Improved.🐛
+
 ### 0.0.1
 
 - Initial release of Flutter Snippets.

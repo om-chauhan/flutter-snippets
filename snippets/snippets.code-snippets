@@ -1,45 +1,71 @@
 {
+  "Import Material Package": {
+    "prefix": "importM",
+    "body": ["import 'package:flutter/material.dart';"],
+    "description": "Import Material Package"
+  },
+  "Import Cupertino Package": {
+    "prefix": "importC",
+    "body": ["import 'package:flutter/cupertino.dart';"],
+    "description": "Import Cupertino Package"
+  },
+
   "Stateless Widget": {
     "prefix": "stlW",
     "body": [
-      "class ${1:Name} extends StatelessWidget {",
-      "const ${1:Name}({ Key? key }) : super(key: key);",
+      "class ${1:} extends StatelessWidget {",
+      "  const ${1:}({Key? key}) : super(key: key);",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return Container(),",
-      "    );",
+      "    return Container();",
       "  }",
       "}"
     ],
     "description": "Stateless Widget"
   },
-  "Statefull Widget": {
+  "Stateful Widget": {
     "prefix": "stfW",
     "body": [
-      "class ${1:Name} extends StatefulWidget {",
-      "const ${1:Name}({ Key? key }) : super(key: key);",
+      "class ${1:} extends StatefulWidget {",
+      "  ${1:}({Key? key}) : super(key: key);",
+      "",
+      "  @override",
+      "  _${1:}State createState() => _${1:}State();",
+      "}",
+      "",
+      "class _${1:}State extends State<${1:}> {",
       "  @override",
       "  Widget build(BuildContext context) {",
-      "    return Container(),",
+      "    return Container(",
       "    );",
       "  }",
       "}"
     ],
-    "description": "Statefull Widget"
+    "description": "Stateful Widget"
   },
   "Build Method": {
-    "prefix": "build",
-    "body": ["  Widget build(BuildContext context) {", "", "}"],
+    "prefix": "buildM",
+    "body": [
+      "@override",
+      "Widget build(BuildContext context) {",
+      "  return Container();",
+      "}"
+    ],
     "description": "Build Method"
   },
   "Init State Method": {
     "prefix": "initS",
-    "body": ["@override", "void initState() {", "  super.initState();", "}"],
+    "body": [
+      "@override",
+      "  void initState() {",
+      "    super.initState();",
+      "  }    "
+    ],
     "description": "Init State Method"
   },
   "Dispose Method": {
-    "prefix": "dis",
-    "body": ["@override", "void dispose() {", "  super.dispose();", "}"],
+    "prefix": "dispM",
+    "body": [" @override", "  void dispose() {", "    super.dispose();", "  }"],
     "description": "Dispose Method"
   },
   "ListView Builder": {
@@ -51,15 +77,11 @@
       "              itemBuilder: (BuildContext context, int index) {",
       "                return Container();",
       "              },",
-      "            ),"
+      "            )"
     ],
     "description": "ListView Builder"
   },
-  "Import Cupertino Package": {
-    "prefix": "importC",
-    "body": ["import 'package:flutter/cupertino.dart';"],
-    "description": "Import Cupertino Package"
-  },
+
   "ListView Separator": {
     "prefix": "ListViewS",
     "body": [
@@ -72,7 +94,7 @@
       "          itemBuilder: (BuildContext context, int index) {",
       "            return Container();",
       "          },",
-      "        ),"
+      "        )"
     ],
     "description": "ListView Separator"
   },
@@ -87,7 +109,7 @@
       "          itemBuilder: (BuildContext context, int index) {",
       "            return Container();",
       "          },",
-      "        ),"
+      "        )"
     ],
     "description": "GridView Builder"
   },
@@ -99,7 +121,7 @@
       "          mainAxisSpacing: 2,",
       "          crossAxisCount: 2,",
       "          children: <Widget>[${1:}],",
-      "        ),"
+      "        )"
     ],
     "description": "GridView Count"
   },
@@ -109,12 +131,12 @@
       "  GridView.extent(",
       "          maxCrossAxisExtent: 2,",
       "          children: <Widget>[${1:}],",
-      "        ),"
+      "        )"
     ],
     "description": "GridView Extent"
   },
   "Custom Scroll View": {
-    "prefix": "customScrollV",
+    "prefix": "customSV",
     "body": [
       "  CustomScrollView(",
       "          slivers: <Widget>[${1:}],",
@@ -141,7 +163,7 @@
       "          builder: (BuildContext context, Orientation orientation) {",
       "            return Container();",
       "          },",
-      "        ),"
+      "        )"
     ],
     "description": "Orientation Builder"
   },
@@ -152,7 +174,7 @@
       "          builder: (BuildContext context, BoxConstraints constraints) {",
       "            return Container();",
       "          },",
-      "        ),"
+      "        )"
     ],
     "description": "Layout Builder"
   },
@@ -175,13 +197,13 @@
       "     builder: (BuildContext context, AsyncSnapshot snapshot) {",
       "       return;",
       "       },",
-      "    ),"
+      "    )"
     ],
     "description": "Future Builder"
   },
   "Debug Print": {
     "prefix": "debugP",
-    "body": ["      debugPrint('${1:}');"],
+    "body": ["debugPrint('${1:}');"],
     "description": "Debug Print"
   },
   "Show Dialog Method": {
