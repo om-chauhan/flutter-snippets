@@ -25,102 +25,102 @@
     "description": "Largest Height"
   },
   "10 Px in Height": {
-    "prefix": "height1x",
+    "prefix": "1xHeight",
     "body": ["const SizedBox(height: 10.0)"],
     "description": "10 Px in Height"
   },
   "20 Px in Height": {
-    "prefix": "height2x",
+    "prefix": "2xHeight",
     "body": ["const SizedBox(height: 20.0)"],
     "description": "20 Px in Height"
   },
   "30 Px in Height": {
-    "prefix": "height3x",
+    "prefix": "3xHeight",
     "body": ["const SizedBox(height: 30.0)"],
     "description": "30 Px in Height"
   },
   "40 Px in Height": {
-    "prefix": "height4x",
+    "prefix": "4xHeight",
     "body": ["const SizedBox(height: 40.0)"],
     "description": "40 Px in Height"
   },
   "50 Px in Height": {
-    "prefix": "height5x",
+    "prefix": "5xHeight",
     "body": ["const SizedBox(height: 50.0)"],
     "description": "50 Px in Height"
   },
   "60 Px in Height": {
-    "prefix": "height6x",
+    "prefix": "6xHeight",
     "body": ["const SizedBox(height: 60.0)"],
     "description": "60 Px in Height"
   },
   "70 Px in Height": {
-    "prefix": "height7x",
+    "prefix": "7xHeight",
     "body": ["const SizedBox(height: 70.0)"],
     "description": "70 Px in Height"
   },
   "80 Px in Height": {
-    "prefix": "height8x",
+    "prefix": "8xHeight",
     "body": ["const SizedBox(height: 80.0)"],
     "description": "80 Px in Height"
   },
   "90 Px in Height": {
-    "prefix": "height9x",
+    "prefix": "9xHeight",
     "body": ["const SizedBox(height: 90.0)"],
     "description": "90 Px in Height"
   },
   "100 Px in Height": {
-    "prefix": "height10x",
+    "prefix": "10xHeight",
     "body": ["const SizedBox(height: 100.0)"],
     "description": "100 Px in Height"
   },
   "110 Px in Height": {
-    "prefix": "height11x",
+    "prefix": "11xHeight",
     "body": ["const SizedBox(height: 110.0)"],
     "description": "110 Px in Height"
   },
   "120 Px in Height": {
-    "prefix": "height12x",
+    "prefix": "12xHeight",
     "body": ["const SizedBox(height: 120.0)"],
     "description": "120 Px in Height"
   },
   "130 Px in Height": {
-    "prefix": "height13x",
+    "prefix": "13xHeight",
     "body": ["const SizedBox(height: 130.0)"],
     "description": "130 Px in Height"
   },
   "140 Px in Height": {
-    "prefix": "height14x",
+    "prefix": "14xHeight",
     "body": ["const SizedBox(height: 140.0)"],
     "description": "140 Px in Height"
   },
   "150 Px in Height": {
-    "prefix": "height15x",
+    "prefix": "15xHeight",
     "body": ["const SizedBox(height: 150.0)"],
     "description": "150 Px in Height"
   },
   "160 Px in Height": {
-    "prefix": "height16x",
+    "prefix": "16xHeight",
     "body": ["const SizedBox(height: 160.0)"],
     "description": "160 Px in Height"
   },
   "170 Px in Height": {
-    "prefix": "height17x",
+    "prefix": "17xHeight",
     "body": ["const SizedBox(height: 170.0)"],
     "description": "170 Px in Height"
   },
   "180 Px in Height": {
-    "prefix": "height18x",
+    "prefix": "18xHeight",
     "body": ["const SizedBox(height: 180.0)"],
     "description": "180 Px in Height"
   },
   "190 Px in Height": {
-    "prefix": "height19x",
+    "prefix": "19xHeight",
     "body": ["const SizedBox(height: 190.0)"],
     "description": "190 Px in Height"
   },
   "200 Px in Height": {
-    "prefix": "height20x",
+    "prefix": "20xHeight",
     "body": ["const SizedBox(height: 200.0)"],
     "description": "200 Px in Height"
   }

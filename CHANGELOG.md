@@ -7,6 +7,10 @@
 | ✅  | Minor Fix   |
 | 🐛  | Bugfix      |
 
+## [0.0.6]
+
+- changed shortcut keys of Height and Width ✅
+
 ## [0.0.5]
 
 - Common Height & Width 🚀

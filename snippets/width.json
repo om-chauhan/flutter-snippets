@@ -25,102 +25,102 @@
     "description": "Largest Width"
   },
   "10 Px in Width": {
-    "prefix": "width1x",
+    "prefix": "1xWidth",
     "body": ["const SizedBox(width: 10.0)"],
     "description": "10 Px in Width"
   },
   "20 Px in Width": {
-    "prefix": "width2x",
+    "prefix": "2xWidth",
     "body": ["const SizedBox(width: 20.0)"],
     "description": "20 Px in Width"
   },
   "30 Px in Width": {
-    "prefix": "width3x",
+    "prefix": "3xWidth",
     "body": ["const SizedBox(width: 30.0)"],
     "description": "30 Px in Width"
   },
   "40 Px in Width": {
-    "prefix": "width4x",
+    "prefix": "4xWidth",
     "body": ["const SizedBox(width: 40.0)"],
     "description": "40 Px in Width"
   },
   "50 Px in Width": {
-    "prefix": "width5x",
+    "prefix": "5xWidth",
     "body": ["const SizedBox(width: 50.0)"],
     "description": "50 Px in Width"
   },
   "60 Px in Width": {
-    "prefix": "width6x",
+    "prefix": "6xWidth",
     "body": ["const SizedBox(width: 60.0)"],
     "description": "60 Px in Width"
   },
   "70 Px in Width": {
-    "prefix": "width7x",
+    "prefix": "7xWidth",
     "body": ["const SizedBox(width: 70.0)"],
     "description": "70 Px in Width"
   },
   "80 Px in Width": {
-    "prefix": "width8x",
+    "prefix": "8xWidth",
     "body": ["const SizedBox(width: 80.0)"],
     "description": "80 Px in Width"
   },
   "90 Px in Width": {
-    "prefix": "width9x",
+    "prefix": "9xWidth",
     "body": ["const SizedBox(width: 90.0)"],
     "description": "90 Px in Width"
   },
   "100 Px in Width": {
-    "prefix": "width10x",
+    "prefix": "10xWidth",
     "body": ["const SizedBox(width: 100.0)"],
     "description": "100 Px in Width"
   },
   "110 Px in Width": {
-    "prefix": "width11x",
+    "prefix": "11xWidth",
     "body": ["const SizedBox(width: 110.0)"],
     "description": "110 Px in Width"
   },
   "120 Px in Width": {
-    "prefix": "width12x",
+    "prefix": "12xWidth",
     "body": ["const SizedBox(width: 120.0)"],
     "description": "120 Px in Width"
   },
   "130 Px in Width": {
-    "prefix": "width13x",
+    "prefix": "13xWidth",
     "body": ["const SizedBox(width: 130.0)"],
     "description": "130 Px in Width"
   },
   "140 Px in Width": {
-    "prefix": "width14x",
+    "prefix": "14xWidth",
     "body": ["const SizedBox(width: 140.0)"],
     "description": "140 Px in Width"
   },
   "150 Px in Width": {
-    "prefix": "width15x",
+    "prefix": "15xWidth",
     "body": ["const SizedBox(width: 150.0)"],
     "description": "150 Px in Width"
   },
   "160 Px in Width": {
-    "prefix": "width16x",
+    "prefix": "16xWidth",
     "body": ["const SizedBox(width: 160.0)"],
     "description": "160 Px in Width"
   },
   "170 Px in Width": {
-    "prefix": "width17x",
+    "prefix": "17xWidth",
     "body": ["const SizedBox(width: 170.0)"],
     "description": "170 Px in Width"
   },
   "180 Px in Width": {
-    "prefix": "width18x",
+    "prefix": "18xWidth",
     "body": ["const SizedBox(width: 180.0)"],
     "description": "180 Px in Width"
   },
   "190 Px in Width": {
-    "prefix": "width19x",
+    "prefix": "19xWidth",
     "body": ["const SizedBox(width: 190.0)"],
     "description": "190 Px in Width"
   },
   "200 Px in Width": {
-    "prefix": "width20x",
+    "prefix": "20xWidth",
     "body": ["const SizedBox(width: 200.0)"],
     "description": "200 Px in Width"
   }

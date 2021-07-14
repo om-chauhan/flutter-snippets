@@ -23,7 +23,7 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | Key press      | Meaning             |
 | -------------- | ------------------- |
 | `listViewB`    | ListView.Builder    |
-| `ListViewS`    | ListView.Separatedt |
+| `ListViewS`    | ListView.Separated  |
 | `gridViewB`    | GridView.Builder    |
 | `gridViewC`    | GridView.Count      |
 | `gridViewE`    | GridView.Extent     |
@@ -81,64 +81,67 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `largerWidth`  | const SizedBox(width: 32.0) |
 | `largestWidth` | const SizedBox(width: 40.0) |
 
-
 #### Height
 
-- `height1x`
+- `1xHeight`
   : 10 logical pixel Height.
 
 | Key press   | Meaning                       |
 | ----------- | ----------------------------- |
-| `height1x`  | const SizedBox(height: 10.0)  |
-| `height2x`  | const SizedBox(height: 20.0)  |
-| `height3x`  | const SizedBox(height: 30.0)  |
-| `height4x`  | const SizedBox(height: 40.0)  |
-| `height5x`  | const SizedBox(height: 50.0)  |
-| `height6x`  | const SizedBox(height: 60.0)  |
-| `height7x`  | const SizedBox(height: 70.0)  |
-| `height8x`  | const SizedBox(height: 80.0)  |
-| `height9x`  | const SizedBox(height: 90.0)  |
-| `height10x` | const SizedBox(height: 100.0) |
-| `height11x` | const SizedBox(height: 110.0) |
-| `height12x` | const SizedBox(height: 120.0) |
-| `height13x` | const SizedBox(height: 130.0) |
-| `height14x` | const SizedBox(height: 140.0) |
-| `height15x` | const SizedBox(height: 150.0) |
-| `height16x` | const SizedBox(height: 160.0) |
-| `height17x` | const SizedBox(height: 170.0) |
-| `height18x` | const SizedBox(height: 180.0) |
-| `height19x` | const SizedBox(height: 190.0) |
-| `height20x` | const SizedBox(height: 200.0) |
+| `1xHeight`  | const SizedBox(height: 10.0)  |
+| `2xHeight`  | const SizedBox(height: 20.0)  |
+| `3xHeight`  | const SizedBox(height: 30.0)  |
+| `4xHeight`  | const SizedBox(height: 40.0)  |
+| `5xHeight`  | const SizedBox(height: 50.0)  |
+| `6xHeight`  | const SizedBox(height: 60.0)  |
+| `7xHeight`  | const SizedBox(height: 70.0)  |
+| `8xHeight`  | const SizedBox(height: 80.0)  |
+| `9xHeight`  | const SizedBox(height: 90.0)  |
+| `10xHeight` | const SizedBox(height: 100.0) |
+| `11xHeight` | const SizedBox(height: 110.0) |
+| `12xHeight` | const SizedBox(height: 120.0) |
+| `13xHeight` | const SizedBox(height: 130.0) |
+| `14xHeight` | const SizedBox(height: 140.0) |
+| `15xHeight` | const SizedBox(height: 150.0) |
+| `16xHeight` | const SizedBox(height: 160.0) |
+| `17xHeight` | const SizedBox(height: 170.0) |
+| `18xHeight` | const SizedBox(height: 180.0) |
+| `19xHeight` | const SizedBox(height: 190.0) |
+| `20xHeight` | const SizedBox(height: 200.0) |
 
 #### Width
 
-- `width1x`
+- `1xWidth`
   : 10 logical pixel Width.
 
 | Key press  | Meaning                      |
 | ---------- | ---------------------------- |
-| `width1x`  | const SizedBox(width: 10.0)  |
-| `width2x`  | const SizedBox(width: 20.0)  |
-| `width3x`  | const SizedBox(width: 30.0)  |
-| `width4x`  | const SizedBox(width: 40.0)  |
-| `width5x`  | const SizedBox(width: 50.0)  |
-| `width6x`  | const SizedBox(width: 60.0)  |
-| `width7x`  | const SizedBox(width: 70.0)  |
-| `width8x`  | const SizedBox(width: 80.0)  |
-| `width9x`  | const SizedBox(width: 90.0)  |
-| `width10x` | const SizedBox(width: 100.0) |
-| `width11x` | const SizedBox(width: 110.0) |
-| `width12x` | const SizedBox(width: 120.0) |
-| `width13x` | const SizedBox(width: 130.0) |
-| `width14x` | const SizedBox(width: 140.0) |
-| `width15x` | const SizedBox(width: 150.0) |
-| `width16x` | const SizedBox(width: 160.0) |
-| `width17x` | const SizedBox(width: 170.0) |
-| `width18x` | const SizedBox(width: 180.0) |
-| `width19x` | const SizedBox(width: 190.0) |
-| `width20x` | const SizedBox(width: 200.0) |
+| `1xWidth`  | const SizedBox(width: 10.0)  |
+| `2xWidth`  | const SizedBox(width: 20.0)  |
+| `3xWidth`  | const SizedBox(width: 30.0)  |
+| `4xWidth`  | const SizedBox(width: 40.0)  |
+| `5xWidth`  | const SizedBox(width: 50.0)  |
+| `6xWidth`  | const SizedBox(width: 60.0)  |
+| `7xWidth`  | const SizedBox(width: 70.0)  |
+| `8xWidth`  | const SizedBox(width: 80.0)  |
+| `9xWidth`  | const SizedBox(width: 90.0)  |
+| `10xWidth` | const SizedBox(width: 100.0) |
+| `11xWidth` | const SizedBox(width: 110.0) |
+| `12xWidth` | const SizedBox(width: 120.0) |
+| `13xWidth` | const SizedBox(width: 130.0) |
+| `14xWidth` | const SizedBox(width: 140.0) |
+| `15xWidth` | const SizedBox(width: 150.0) |
+| `16xWidth` | const SizedBox(width: 160.0) |
+| `17xWidth` | const SizedBox(width: 170.0) |
+| `18xWidth` | const SizedBox(width: 180.0) |
+| `19xWidth` | const SizedBox(width: 190.0) |
+| `20xWidth` | const SizedBox(width: 200.0) |
 
 ## Release Notes
+
+### 0.0.6
+
+- changed shortcut keys of Height and Width ✅
 
 ### 0.0.5
 
