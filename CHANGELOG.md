@@ -7,6 +7,10 @@
 | ✅  | Minor Fix   |
 | 🐛  | Bugfix      |
 
+## [0.0.7]
+
+- demo video added in Readme.md 🚀
+
 ## [0.0.6]
 
 - changed shortcut keys of Height and Width ✅

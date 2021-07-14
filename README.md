@@ -4,6 +4,10 @@
 
 Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter Developers.
 
+## Demo
+
+![Flutter Snippets Demo](flutter-snippets-demo.gif)
+
 ## Features
 
 1. Speed up developements.
@@ -138,6 +142,10 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `20xWidth` | const SizedBox(width: 200.0) |
 
 ## Release Notes
+
+### 0.0.7
+
+- demo video added in Readme.md 🚀
 
 ### 0.0.6
 
