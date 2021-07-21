@@ -7,6 +7,11 @@
 | ✅  | Minor Fix   |
 | 🐛  | Bugfix      |
 
+## [0.0.8]
+
+- `showDialog` to `alertDialog` ✅
+- Responsive Class Code Added. 🚀
+
 ## [0.0.7]
 
 - demo video added in Readme.md 🚀

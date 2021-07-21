@@ -22,6 +22,12 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `importM` | Material Package  |
 | `importC` | Cupertino Package |
 
+#### Class
+
+| Key press  | Meaning               |
+| ---------- | --------------------- |
+| `resClass` | Responsive Class Code |
+
 #### Builders
 
 | Key press      | Meaning             |
@@ -58,12 +64,12 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 
 #### Methods
 
-| Key press    | Meaning           |
-| ------------ | ----------------- |
-| `buildM`     | Build Method      |
-| `initS`      | Init State Method |
-| `dispM`      | Dispose Method    |
-| `showDialog` | showDialog Method |
+| Key press     | Meaning             |
+| ------------- | ------------------- |
+| `buildM`      | Build Method        |
+| `initS`       | Init State Method   |
+| `dispM`       | Dispose Method      |
+| `alertDialog` | Alert Dialog Method |
 
 #### Common Height
 
@@ -142,6 +148,11 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `20xWidth` | const SizedBox(width: 200.0) |
 
 ## Release Notes
+
+### 0.0.8
+
+- `showDialog` to `alertDialog` ✅
+- Responsive Class Code Added. 🚀
 
 ### 0.0.7
 
