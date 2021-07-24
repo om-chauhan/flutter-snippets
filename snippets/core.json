@@ -1,15 +1,18 @@
 {
   "Import Material Package": {
     "prefix": "importM",
-    "body": ["import 'package:flutter/material.dart';"],
+    "body": [
+      "import 'package:flutter/material.dart';"
+    ],
     "description": "Import Material Package"
   },
   "Import Cupertino Package": {
     "prefix": "importC",
-    "body": ["import 'package:flutter/cupertino.dart';"],
+    "body": [
+      "import 'package:flutter/cupertino.dart';"
+    ],
     "description": "Import Cupertino Package"
   },
-
   "Stateless Widget": {
     "prefix": "stlW",
     "body": [
@@ -59,13 +62,20 @@
       "@override",
       "  void initState() {",
       "    super.initState();",
+      "      ${1:}",
       "  }    "
     ],
     "description": "Init State Method"
   },
   "Dispose Method": {
-    "prefix": "dispM",
-    "body": [" @override", "  void dispose() {", "    super.dispose();", "  }"],
+    "prefix": "dis",
+    "body": [
+      " @override",
+      "  void dispose() {",
+      "    super.dispose();",
+      "      ${1:}",
+      "  }"
+    ],
     "description": "Dispose Method"
   },
   "ListView Builder": {
@@ -74,6 +84,7 @@
       " ListView.builder(",
       "              itemCount: ${1:5},",
       "              shrinkWrap: true,",
+      "              physics: ScrollPhysics(),",
       "              itemBuilder: (BuildContext context, int index) {",
       "                return Container();",
       "              },",
@@ -81,13 +92,13 @@
     ],
     "description": "ListView Builder"
   },
-
   "ListView Separator": {
     "prefix": "ListViewS",
     "body": [
       "    ListView.separated(",
       "          itemCount: 1,",
       "          shrinkWrap: true,",
+      "          physics: ScrollPhysics(),",
       "          separatorBuilder: (BuildContext context, int index) {",
       "            return Container();",
       "          },",
@@ -106,6 +117,8 @@
       "            crossAxisCount: 2,",
       "          ),",
       "          itemCount: 2,",
+      "          shrinkWrap: true,",
+      "          physics: ScrollPhysics(),",
       "          itemBuilder: (BuildContext context, int index) {",
       "            return Container();",
       "          },",
@@ -157,24 +170,38 @@
     "description": "Stream Builder"
   },
   "Orientation Builder": {
-    "prefix": "orientationB",
+    "prefix": "oriB",
     "body": [
-      " OrientationBuilder(",
-      "          builder: (BuildContext context, Orientation orientation) {",
-      "            return Container();",
-      "          },",
-      "        )"
+      "OrientationBuilder(",
+      "    builder: (context, orientation) {",
+      "    return GridView.count(",
+      "    // Create a grid with 2 columns in portrait mode,",
+      "    // or 3 columns in landscape mode.",
+      "    crossAxisCount: orientation == Orientation.portrait ? 2 : 3,",
+      "    children: [",
+      "              Container(),",
+      "             ],",
+      "          );",
+      "       },",
+      "    )"
     ],
     "description": "Orientation Builder"
   },
   "Layout Builder": {
     "prefix": "layoutB",
     "body": [
-      "   LayoutBuilder(",
-      "          builder: (BuildContext context, BoxConstraints constraints) {",
-      "            return Container();",
-      "          },",
-      "        )"
+      "LayoutBuilder(",
+      "     builder: (BuildContext context, BoxConstraints constraints) {",
+      "       if (constraints.maxWidth <= 767) {",
+      "         return Container(); // Mobile View Breakpoint",
+      "         } else if (constraints.maxWidth >= 768 &&",
+      "           constraints.maxWidth <= 1023) {",
+      "              return Container(); // Tablet View Breakpoint",
+      "               } else {",
+      "                 return Container(); // Mobile View Breakpoint",
+      "               }",
+      "            },",
+      "          )"
     ],
     "description": "Layout Builder"
   },
@@ -183,7 +210,7 @@
     "body": [
       "  SingleChildScrollView(",
       "       child: Column(",
-      "         children: [],",
+      "         children: [${1:}],",
       "       ),",
       "    ),"
     ],
@@ -195,7 +222,7 @@
       "  FutureBuilder(",
       "     future: ${1:},",
       "     builder: (BuildContext context, AsyncSnapshot snapshot) {",
-      "       return;",
+      "       return Container();",
       "       },",
       "    )"
     ],
@@ -203,7 +230,9 @@
   },
   "Debug Print": {
     "prefix": "debugP",
-    "body": ["debugPrint('${1:}');"],
+    "body": [
+      "debugPrint('${1:}');"
+    ],
     "description": "Debug Print"
   },
   "Show Dialog Method": {

@@ -30,17 +30,17 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 
 #### Builders
 
-| Key press      | Meaning             |
-| -------------- | ------------------- |
-| `listViewB`    | ListView.Builder    |
-| `ListViewS`    | ListView.Separated  |
-| `gridViewB`    | GridView.Builder    |
-| `gridViewC`    | GridView.Count      |
-| `gridViewE`    | GridView.Extent     |
-| `streamB`      | Stream Builder      |
-| `layoutB`      | Layout Builder      |
-| `orientationB` | Orientation Builder |
-| `futureB`      | Future Builder      |
+| Key press   | Meaning             |
+| ----------- | ------------------- |
+| `listViewB` | ListView.Builder    |
+| `ListViewS` | ListView.Separated  |
+| `gridViewB` | GridView.Builder    |
+| `gridViewC` | GridView.Count      |
+| `gridViewE` | GridView.Extent     |
+| `streamB`   | Stream Builder      |
+| `layoutB`   | Layout Builder      |
+| `oriB`      | Orientation Builder |
+| `futureB`   | Future Builder      |
 
 #### Scroll Views
 
@@ -68,7 +68,7 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | ------------- | ------------------- |
 | `buildM`      | Build Method        |
 | `initS`       | Init State Method   |
-| `dispM`       | Dispose Method      |
+| `dis`         | Dispose Method      |
 | `alertDialog` | Alert Dialog Method |
 
 #### Common Height
@@ -148,6 +148,12 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `20xWidth` | const SizedBox(width: 200.0) |
 
 ## Release Notes
+
+### 0.0.9
+
+- `dispM` to `dis`, `orientationB` to `oriB` ✅
+- Layout Builder, Orientation Builder, Future Builder and GridView Builder Code updated.✅
+- **Physics** and **shrinkWrap** added on all Scrollable View.✅
 
 ### 0.0.8
 
