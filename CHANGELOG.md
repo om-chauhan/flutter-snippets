@@ -7,6 +7,10 @@
 | ✅  | Minor Fix   |
 | 🐛  | Bugfix      |
 
+## [0.0.10]
+
+- demo gif url changed🐛
+
 ## [0.0.9]
 
 - `dispM` to `dis`, `orientationB` to `oriB` ✅
