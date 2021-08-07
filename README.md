@@ -6,7 +6,7 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 
 ## Demo
 
-<img src="https://github.com/om-chauhan/flutter-snippets/blob/master/flutter-snippets-demo.gif" alt="Flutter Snippets demo gif">
+<img src="flutter-snippets-demo.gif" alt="Flutter Snippets demo gif">
 
 ## Features
 
