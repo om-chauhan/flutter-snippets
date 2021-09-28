@@ -30,17 +30,19 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 
 #### Builders
 
-| Key press   | Meaning             |
-| ----------- | ------------------- |
-| `listViewB` | ListView.Builder    |
-| `ListViewS` | ListView.Separated  |
-| `gridViewB` | GridView.Builder    |
-| `gridViewC` | GridView.Count      |
-| `gridViewE` | GridView.Extent     |
-| `streamB`   | Stream Builder      |
-| `layoutB`   | Layout Builder      |
-| `oriB`      | Orientation Builder |
-| `futureB`   | Future Builder      |
+| Key press        | Meaning                            |
+| ---------------- | ---------------------------------- |
+| `listViewB`      | ListView.Builder                   |
+| `ListViewS`      | ListView.Separated                 |
+| `gridViewB`      | GridView.Builder                   |
+| `gridViewC`      | GridView.Count                     |
+| `gridViewE`      | GridView.Extent                    |
+| `streamB`        | Stream Builder                     |
+| `layoutB`        | Layout Builder                     |
+| `oriB`           | Orientation Builder                |
+| `futureB`        | Future Builder                     |
+| `futureBLV`      | Future Builder ListView            |
+| `futureBLVModel` | Future Builder with ListView Model |
 
 #### Scroll Views
 
@@ -148,6 +150,11 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `20xWidth` | const SizedBox(width: 200.0) |
 
 ## Release Notes
+
+### 0.0.12
+
+- `futureBLV` for Future Builder ListView 🚀
+- `futureBLVModel` for Future Builder with ListView Model 🚀
 
 ### 0.0.10
 

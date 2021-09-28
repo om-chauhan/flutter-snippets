@@ -7,6 +7,11 @@
 | ✅  | Minor Fix   |
 | 🐛  | Bugfix      |
 
+## [0.0.12]
+
+- `futureBLV` for Future Builder ListView 🚀
+- `futureBLVModel` for Future Builder with ListView Model 🚀
+
 ## [0.0.10]
 
 - demo gif url changed🐛

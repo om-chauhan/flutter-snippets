@@ -228,6 +228,54 @@
     ],
     "description": "Future Builder"
   },
+  "Future Builder with ListView Model": {
+    "prefix": "futureBLVModel",
+    "body": [
+      "FutureBuilder<${1:}>(",
+      "      future: ${2:},",
+      "      builder: (context, snapshot) {",
+      "        if (snapshot.hasData) {",
+      "          return ListView.builder(",
+      "            itemCount: 5,",
+      "            shrinkWrap: true,",
+      "            physics: ScrollPhysics(),",
+      "            itemBuilder: (BuildContext context, int index) {",
+      "              return Container();",
+      "            },",
+      "          );",
+      "        } else if (snapshot.hasError) {",
+      "          return Text(\"${snapshot.error}\");",
+      "        }",
+      "        return Center(child: CircularProgressIndicator());",
+      "      },",
+      "    )"
+    ],
+    "description": "Future Builder with ListView Model"
+  },
+  "Future Builder with ListView": {
+    "prefix": "futureBLV",
+    "body": [
+      "FutureBuilder(",
+      "      future: ${1:},",
+      "      builder: (context, snapshot) {",
+      "        if (snapshot.hasData) {",
+      "          return ListView.builder(",
+      "            itemCount: 5,",
+      "            shrinkWrap: true,",
+      "            physics: ScrollPhysics(),",
+      "            itemBuilder: (BuildContext context, int index) {",
+      "              return Container();",
+      "            },",
+      "          );",
+      "        } else if (snapshot.hasError) {",
+      "          return Text(\"${snapshot.error}\");",
+      "        }",
+      "        return Center(child: CircularProgressIndicator());",
+      "      },",
+      "    )"
+    ],
+    "description": "Future Builder with ListView"
+  },
   "Debug Print": {
     "prefix": "debugP",
     "body": [
