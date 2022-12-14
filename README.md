@@ -149,6 +149,10 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `19xWidth` | const SizedBox(width: 190.0) |
 | `20xWidth` | const SizedBox(width: 200.0) |
 
+## Licence
+
+[MIT Licence](LICENCE.md)
+
 ## Release Notes
 
 ### 0.0.12
@@ -201,3 +205,5 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 ### 0.0.1
 
 - Initial release of Flutter Snippets.
+
+
