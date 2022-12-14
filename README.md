@@ -151,7 +151,7 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 
 ## Licence
 
-[MIT Licence](LICENCE.md)
+[MIT Licence](https://raw.githubusercontent.com/om-chauhan/flutter-snippets/master/LICENCE)
 
 ## Release Notes
 
