@@ -2,16 +2,33 @@
 
 # Flutter Snippets
 
-Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter Developers.
+Supercharge Your Flutter Dev: The Must-Have VS Code Flutter Snippet Extension.
 
 ## Demo
 
 <img src="flutter-snippets-demo.gif" alt="Flutter Snippets demo gif">
 
-## Features
+## Top 10 features of Flutter Snippets
 
-1. Speed up developements.
-2. Don't need to memorize complex code.
+1. Shortcuts for importing packages: This feature saves you time by automatically importing commonly used packages.
+
+2. Class creation shortcuts: This feature helps you quickly create new Flutter classes with the boilerplate code already filled in.
+
+3. Builder shortcuts: This feature provides shortcuts for creating different types of builders, such as StateBuilders and StreamBuilders.
+
+4. Scroll view shortcuts: This feature allows you to easily create different types of scroll views, such as ListViews and SingleChildScrollViews.
+
+5. Widget shortcuts: This feature provides shortcuts for creating a variety of widgets, such as Text, RaisedButton, and FloatingActionButton.
+
+6. Function and method shortcuts: This feature includes shortcuts for commonly used functions and methods, such as setState and initState.
+
+7. Common height and width snippets: This feature provides pre-defined snippets for setting common heights and widths in your Flutter code.
+
+8. Code formatting: This feature automatically formats your code according to the Flutter style guide.
+
+9. Live templates: This feature allows you to create your own custom snippets for frequently used code patterns.
+
+10. Integration with other extensions: This feature allows you to use Flutter Snippets with other popular VS Code extensions, such as Dart and Flutter.
 
 ## Shortcuts
 
@@ -149,9 +166,9 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 | `19xWidth` | const SizedBox(width: 190.0) |
 | `20xWidth` | const SizedBox(width: 200.0) |
 
-## Licence
+## License
 
-[MIT Licence](https://raw.githubusercontent.com/om-chauhan/flutter-snippets/master/LICENCE)
+[MIT License](https://raw.githubusercontent.com/om-chauhan/flutter-snippets/master/LICENCE)
 
 ## Release Notes
 
@@ -205,5 +222,3 @@ Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter 
 ### 0.0.1
 
 - Initial release of Flutter Snippets.
-
-
