@@ -1,9 +1,9 @@
 {
   "name": "flutter-snippets",
   "displayName": "Flutter Snippets",
-  "description": "Flutter Snippets is a collection of mostly used Widgets and Classes for Flutter Developers.",
+  "description": "Supercharge Your Flutter Dev: The Must-Have VS Code Flutter Snippet Extension.",
   "publisher": "om-chauhan",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "homepage": "https://github.com/om-chauhan/flutter-snippets/blob/master/README.md",
   "bugs": {
     "url": "https://github.com/om-chauhan/flutter-snippets/issues",
@@ -20,7 +20,16 @@
   "keywords": [
     "Flutter",
     "Dart",
-    "Snippets"
+    "Snippets",
+    "Widgets",
+    "Shortcut",
+    "Code Snippets",
+    "Flutter Snippets",
+    "Flutter Widgets",
+    "Dart Classes",
+    "Flutter Shortcuts",
+    "Flutter Code Snippets",
+    "Flutter Code Shortcuts"
   ],
   "categories": [
     "Snippets"
@@ -34,6 +43,10 @@
       {
         "language": "dart",
         "path": "./snippets/height.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/provider.json"
       },
       {
         "language": "dart",

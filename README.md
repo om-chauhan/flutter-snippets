@@ -6,27 +6,27 @@ Supercharge Your Flutter Dev: The Must-Have VS Code Flutter Snippet Extension.
 
 ## Demo
 
-<img src="flutter-snippets-demo.gif" alt="Flutter Snippets demo gif">
+<img src="https://github.com/om-chauhan/flutter-snippets/raw/HEAD/flutter-snippets-demo.gif" alt="Flutter Snippets demo gif">
 
 ## Top 10 features of Flutter Snippets
 
-1. Shortcuts for importing packages: This feature saves you time by automatically importing commonly used packages.
+1.  Shortcuts for importing packages: This feature saves you time by automatically importing commonly used packages.
 
-2. Class creation shortcuts: This feature helps you quickly create new Flutter classes with the boilerplate code already filled in.
+2.  Class creation shortcuts: This feature helps you quickly create new Flutter classes with the boilerplate code already filled in.
 
-3. Builder shortcuts: This feature provides shortcuts for creating different types of builders, such as StateBuilders and StreamBuilders.
+3.  Builder shortcuts: This feature provides shortcuts for creating different types of builders, such as StateBuilders and StreamBuilders.
 
-4. Scroll view shortcuts: This feature allows you to easily create different types of scroll views, such as ListViews and SingleChildScrollViews.
+4.  Scroll view shortcuts: This feature allows you to easily create different types of scroll views, such as ListViews and SingleChildScrollViews.
 
-5. Widget shortcuts: This feature provides shortcuts for creating a variety of widgets, such as Text, RaisedButton, and FloatingActionButton.
+5.  Widget shortcuts: This feature provides shortcuts for creating a variety of widgets, such as Text, RaisedButton, and FloatingActionButton.
 
-6. Function and method shortcuts: This feature includes shortcuts for commonly used functions and methods, such as setState and initState.
+6.  Function and method shortcuts: This feature includes shortcuts for commonly used functions and methods, such as setState and initState.
 
-7. Common height and width snippets: This feature provides pre-defined snippets for setting common heights and widths in your Flutter code.
+7.  Common height and width snippets: This feature provides pre-defined snippets for setting common heights and widths in your Flutter code.
 
-8. Code formatting: This feature automatically formats your code according to the Flutter style guide.
+8.  Code formatting: This feature automatically formats your code according to the Flutter style guide.
 
-9. Live templates: This feature allows you to create your own custom snippets for frequently used code patterns.
+9.  Live templates: This feature allows you to create your own custom snippets for frequently used code patterns.
 
 10. Integration with other extensions: This feature allows you to use Flutter Snippets with other popular VS Code extensions, such as Dart and Flutter.
 
@@ -49,11 +49,11 @@ Supercharge Your Flutter Dev: The Must-Have VS Code Flutter Snippet Extension.
 
 | Key press        | Meaning                            |
 | ---------------- | ---------------------------------- |
-| `listViewB`      | ListView.Builder                   |
-| `ListViewS`      | ListView.Separated                 |
-| `gridViewB`      | GridView.Builder                   |
-| `gridViewC`      | GridView.Count                     |
-| `gridViewE`      | GridView.Extent                    |
+| `listViewB`      | ListView. Builder                  |
+| `ListViewS`      | ListView. Separated                |
+| `gridViewB`      | GridView. Builder                  |
+| `gridViewC`      | GridView. Count                    |
+| `gridViewE`      | GridView. Extent                   |
 | `streamB`        | Stream Builder                     |
 | `layoutB`        | Layout Builder                     |
 | `oriB`           | Orientation Builder                |
@@ -166,11 +166,31 @@ Supercharge Your Flutter Dev: The Must-Have VS Code Flutter Snippet Extension.
 | `19xWidth` | const SizedBox(width: 190.0) |
 | `20xWidth` | const SizedBox(width: 200.0) |
 
+#### Provider Package Utils
+
+| Key press            | Meaning                        |
+| -------------------- | ------------------------------ |
+| `importProvider`     | Import Provider Package        |
+| `changeNotiPro`      | Change changeNotifier Provider |
+| `consumerProBuild`   | Provider Consumer Builder      |
+| `proContext`         | Provider.of(context)           |
+| `multiProMaApp`      | Multi Provider Material App    |
+| `proControllerClass` | Provider Controller Class      |
+
 ## License
 
 [MIT License](https://raw.githubusercontent.com/om-chauhan/flutter-snippets/master/LICENCE)
 
 ## Release Notes
+
+### 0.0.14
+
+- Update App Description 🚀
+
+### 0.0.13
+
+- Added `Provider` Package Utils 🚀
+- Update documentation ✅
 
 ### 0.0.12
 

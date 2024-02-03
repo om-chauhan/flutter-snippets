@@ -7,6 +7,15 @@
 | ✅  | Minor Fix   |
 | 🐛  | Bugfix      |
 
+## [0.0.14]
+
+- Update App Description 🚀
+
+## [0.0.13]
+
+- Added `Provider` Package Utils 🚀
+- Update documentation ✅
+
 ## [0.0.12]
 
 - `futureBLV` for Future Builder ListView 🚀

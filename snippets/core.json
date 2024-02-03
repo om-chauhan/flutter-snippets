@@ -1,16 +1,12 @@
 {
   "Import Material Package": {
     "prefix": "importM",
-    "body": [
-      "import 'package:flutter/material.dart';"
-    ],
+    "body": ["import 'package:flutter/material.dart';"],
     "description": "Import Material Package"
   },
   "Import Cupertino Package": {
     "prefix": "importC",
-    "body": [
-      "import 'package:flutter/cupertino.dart';"
-    ],
+    "body": ["import 'package:flutter/cupertino.dart';"],
     "description": "Import Cupertino Package"
   },
   "Stateless Widget": {
@@ -278,9 +274,7 @@
   },
   "Debug Print": {
     "prefix": "debugP",
-    "body": [
-      "debugPrint('${1:}');"
-    ],
+    "body": ["debugPrint('${1:}');"],
     "description": "Debug Print"
   },
   "Show Dialog Method": {
@@ -321,7 +315,7 @@
       "",
       "// This size work fine on my design, maybe you need some customization depends on your design",
       "",
-      "  // This isMobile, isTablet, isDesktop helep us later",
+      "  // This isMobile, isTablet, isDesktop help us later",
       "  static bool isMobile(BuildContext context) =>",
       "      MediaQuery.of(context).size.width < 850;",
       "",
